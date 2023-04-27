@@ -1,0 +1,29 @@
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.numbers {
+  display: flex;
+}
+.buttons {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+button {
+  background-color: #f540c2;
+  border-radius: 50px;
+  box-shadow: inset 4px 4px 10px #f540c2, inset -4px -4px 10px #ffffff;
+
+  cursor: pointer;
+  font-size: 18px;
+  padding: 15px 40px;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid rgb(206, 206, 206);
+}
+button:hover {
+  box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff,
+    2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
+}
